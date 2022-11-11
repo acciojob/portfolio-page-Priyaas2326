@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li::before{
+            content: "❤️ ";
+        }
+        li{
+            list-style: none;
+        }
+        li:nth-child(even)::before{
+            content: "😂";
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <img src="" alt="">
+    <h1>Priya Sharma</h1>
+    <h2>LinkedIn</h2>
+    <a href="https://www.linkedin.com/in/priya-sharma-9289841a7/">Redirect to LinkedIn</a>
+    <section class="sect">
+        <ul>
+            <li class="skill1">Java</li>
+            <li class="skill2">WebDEV</li>
+            <li class="skill3">Fashion</li>
+            <li class="skill4">editing</li>
+            <li class="skill5">singing</li>
+            <li class="skill6">overthinking</li>
+        </ul>
 
+
+    </section>
+    <section class="projects">
+        <ul>
+            <li class="project1">Tic tac Toe</li>
+            <li class="project2">DOGO Project</li>
+            <li class="project3">trojan horse</li>
+        </ul>
+    </section>
 </body>
-
 </html>
