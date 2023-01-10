@@ -1,45 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        li::before{
-            content: "❤️ ";
-        }
-        li{
-            list-style: none;
-        }
-        li:nth-child(even)::before{
-            content: "😂";
-        }
-    </style>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <img src="https://i.pinimg.com/474x/ec/7f/95/ec7f9575d98970b8ea32beca3e802ea3.jpg" alt="">
-    <h1>Priya Sharma</h1>
-    <h2>LinkedIn</h2>
-    <a href="https://www.linkedin.com/in/priya-sharma-9289841a7/">Redirect to LinkedIn</a>
-    <section class="sect">
-        <ul>
-            <li class="skill1">Java</li>
-            <li class="skill2">WebDEV</li>
-            <li class="skill3">Fashion</li>
-            <li class="skill4">editing</li>
-            <li class="skill5">singing</li>
-            <li class="skill6">overthinking</li>
-        </ul>
+	<!-- the entire body must be written by student -->
+	<section>
+		<div class = "profile">
+	
+			<h2>Priya sharma</h2>
+		</div>
+		<div>
+			<label name = "linkedIn">LinkedIn profile link - </label>
+			<a href = "https://www.linkedin.com/in/priya-sharma-9289841a7/" target = "_blank">https://www.linkedin.com/in/priya-sharma-9289841a7/</a>
+		</div>
+	</section>
+	
+	<section id = "skills">
+		<h1><span>Skills</span> :- </h1>
+		<ul>
+			<li>Java Programming Language</li>
+			<li>DSA</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Python</li>
+		</ul>
+	</section>
 
+	<section id = "education">
+		<h1><span>Qualification</span> :-</h1>
+		<table id = "eudcation-table">
+			<tr>
+				<th>Education</th>
+				<th>College</th>
+				<th>Board</th>
+				<th>Passing Year</th>
+			</tr>
+			<tr>
+				<td>B.Com Computers</td>
+				<td>Bhopal school of social sciences</td>
+				<td>BSSS</td>
+				<td>2023</td>
+			</tr>
+			<tr>
+				<td>Intermediate</td>
+				<td>Bal bhawan school</td>
+				<td>CBSE</td>
+				<td>2020</td>
+			</tr>
+			<tr>
+				<td>High School</td>
+				<td>Bal bhawan school</td>
+				<td>CBSE</td>
+				<td>2018</td>
+			</tr>
+		</table>
+	</section>
+	
+	<section id = "projects">
+		<h1><span>Projects</span> :-</h1>
+		<div class = "project-item">
+			<ul>
+				<li>
+					<h3>The Beagle blog</h3>
+					<p>The Beagle is a breed of small scent hound, similar in appearance to the much larger foxhound.</p>
+				</li>
+			</ul>
+			
+		</div>
+	</section>
+    <script type="text/javascript" src="./script.js">
+</script>
 
-    </section>
-    <section class="projects">
-        <ul>
-            <li class="project1">Tic tac Toe</li>
-            <li class="project2">DOGO Project</li>
-            <li class="project3">trojan horse</li>
-        </ul>
-    </section>
 </body>
+
 </html>
